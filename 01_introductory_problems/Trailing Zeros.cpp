@@ -20,6 +20,7 @@ using namespace std;
 // Numbers like 25 = 5×5 contribute two 5’s → add an extra count (n/25).
 // Numbers like 125 = 5×5×5 contribute three 5’s → add another count (n/125).
 //We never double-count, because each step only counts the extra 5s contributed by higher powers.
+// 25 /5 give 1 + 25 /25 gives 1 qnd 25 = 5*5 two fives hence it works
 
 int main() {
     ios::sync_with_stdio(false);
