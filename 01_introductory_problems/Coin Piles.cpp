@@ -14,6 +14,8 @@
 typedef long long ll;
 using namespace std;
 
+// here min(l,r) bocz 8+1 is also 9 but second pile will be empty after 1st move hence we check if
+// the pile which contains less coins can keep up with max pile
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
