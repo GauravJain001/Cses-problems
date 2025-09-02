@@ -33,7 +33,5 @@ int main() {
         zeros += n / p;
     }
     cout << zeros;
-
-
     return 0;
 }
